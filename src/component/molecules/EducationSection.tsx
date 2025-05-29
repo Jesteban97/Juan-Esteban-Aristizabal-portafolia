@@ -31,7 +31,7 @@ export default function EducationSection() {
 
       <h2 className="text-3xl font-bold mb-10 text-gray-800 text-center">Educación</h2>
       <div className="py-16 bg-gray-50 ">
-        {currentStudies.map((item, index) => (
+        {currentStudies.map((item) => (
         
           <EducationCard
             key={`${item.institution}-${item.certificateTitle}`}

@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌟 Mi Currículum y Portafolio Personal
 
-## Getting Started
+Este es un proyecto web desarrollado con **Next.js** que sirve como presentación de mi **currículum** y **portafolio profesional**. Está diseñado para mostrar mis datos personales, experiencia laboral, habilidades y proyectos destacados.
 
-First, run the development server:
+El sitio está **desplegado en Vercel**, lo que permite una carga rápida y una experiencia de usuario optimizada.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Tecnologías utilizadas
+
+- [Next.js](https://nextjs.org/) – Framework de React para aplicaciones web modernas
+- [React](https://reactjs.org/) – Librería de JavaScript para construir interfaces de usuario
+- [Vercel](https://vercel.com/) – Plataforma para desplegar aplicaciones frontend con gran rendimiento
+- [CSS Modules / TailwindCSS (opcional)] – Estilizado del sitio (dependiendo de lo que uses)
+
+## 📄 Características
+
+- Página principal con resumen profesional
+- Sección de experiencia laboral y educación
+- Galería de proyectos destacados
+- Datos de contacto y enlaces a redes sociales
+- Diseño responsivo para móviles y escritorio
+
+## 🛠️ Instalación y ejecución local
+
+1. Clona el repositorio:
+
+   ```bash
+   git clone https://github.com/Jesteban97/Juan-Esteban-Aristizabal-portafolia.git
+   cd nombre-del-repo
+2. Instala las dependencias:
+yarn install
+3. Ejecuta el servidor de desarrollo:
+yarn run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre tu navegador en http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🌍 Despliegue
+Este sitio está desplegado en Vercel. Puedes verlo en:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+👉 https://tu-usuario.vercel.app
 
-## Learn More
+📬 Contacto
+Si quieres saber más sobre mí o trabajar juntos, puedes contactarme a través de:
 
-To learn more about Next.js, take a look at the following resources:
+Correo: jesteban.aristizabal@udea.edu.co
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+LinkedIn: www.linkedin.com/in/juan-esteban-aristizabal-aristizabal-41560524b
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+GitHub: https://github.com/Jesteban97

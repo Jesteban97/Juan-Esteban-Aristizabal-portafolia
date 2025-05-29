@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 import { TbBoxMultiple } from "react-icons/tb";
 import ProgressBar from '../atoms/ProgressBar';
@@ -11,7 +12,7 @@ export default function LeftSidebar() {
       {/* Contenedor superior con imagen de perfil y datos personales */}
       <div className="flex flex-col items-center mb-8">
         {/* Imagen del usuario con estilo redondeado y borde amarillo */}
-        <img src="/foto2.png" className="w-30 h-30 rounded-full mb-3 border-2 border-yellow-400" alt="Foto" />
+        <Image src="/foto2.png" className="w-30 h-30 rounded-full mb-3 border-2 border-yellow-400" alt="Foto" />
         
         {/* Nombre del usuario centrado y con tipografía destacada */}
         <h2 className="text-lg font-semibold text-black text-center">Juan Esteban Aristizabal</h2>

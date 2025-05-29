@@ -1,4 +1,4 @@
-
+import Image from "next/image";
 import Button from "./Button";
 
 interface PortfolioCardProps {
@@ -17,7 +17,7 @@ export default function PortfolioCard({
   return (
     <div className="bg-white rounded-xl shadow-md w-80 min-h-[400px] flex flex-col justify-between flex-shrink-0">
       <div className="h-48 w-full bg-white rounded-t-xl overflow-hidden flex items-center justify-center">
-        <img
+        <Image
           src={image}
           alt={title}
           className="object-contain h-full w-auto"
@@ -34,7 +34,8 @@ export default function PortfolioCard({
         </p>
 
         <div className="mt-4">
-          <Button onClick={onLearnMore} children={"Saber más"} />{" "}
+          <Button onClick={onLearnMore}>Saber más</Button>
+
         </div>
       </div>
     </div>
